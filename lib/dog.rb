@@ -4,13 +4,16 @@ class Dog
       @breed = breed
   end
 
-   def get_name(name)
-     @this_name = name
-   end
+  # getter and setter
+  # def get_name(name)
+  #   @this_name = name
+  # end
 
-   def name=(name)
-     @this_name
-   end
-  attr_accessor :breed
+  # def name=(name)
+  #   @this_name
+  # end
+
+#Use macro method
+  attr_accessor :name, :breed
 
 end
