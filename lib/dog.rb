@@ -4,6 +4,13 @@ class Dog
       @breed = breed
   end
 
-  attr_accessor :name, :breed
+   def get_name(name)
+     @this_name = name
+   end
 
-end  
+   def name=(name)
+     @this_name
+   end
+  attr_accessor :breed
+
+end
